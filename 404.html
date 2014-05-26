@@ -11,23 +11,28 @@
     <link rel="stylesheet" type="text/css" href="number-pb.css">
     
     <script src="js/vendor/modernizr.js"></script>
-  
+
   </head>
   
   <body>
   
+	<div class="row">
+        <h1 class="column small-centered small-4">404 Error TEst</h1>
+    </div>
+    <div class="row">
+        <h2 class="column small-centered small-4">Page Not Found</p>
+    </div>
+    <div class="row" id="puzzleDiv">
+    	<div class="puzzle"	style="float: left ; margin-right: 50px ;">
 
-    <h1>404 Error TEst</h1>
-    <p>Page Not Found</p>
-    <img src="img/doh.jpg">
-
-    <article>
-      <h4 class="title"></h4>
-      <div class="number-pb">
-        <div class="number-pb-shown"></div>
-        <div class="number-pb-num">0</div>
-      </div>
-    </article>
+    		<img src="img/doh.jpg">
+    	</div>
+    </div>
+    <div class="row">
+        <button id="smButt">Small</button>
+        <button id="medButt">Medium</button>
+        <button id="lgButt">Large</button>
+    </div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
@@ -36,10 +41,9 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.velocity.min.js"></script>
     <script src="number-pb.js"></script>
-    <script>
-      var bars = $('.number-pb').NumberProgressBar(barOptions);
-      bars.reach(dest, reachOptions);
-    </script>
+	
+    <script src="js/jquery-latest.pack.js"></script>
+    <script src="js/jquery.puzzle.js"></script>
   </body>
 
 </html>
