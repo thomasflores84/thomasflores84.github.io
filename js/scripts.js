@@ -8,6 +8,5 @@ $('#smButt').click(function() {
 
 function makePuzzle (size, object) {
 	$("#puzzleDiv").html("<div class='puzzle column small-centered small-6'><img src='img/lost.jpg'></div>");
-	$( "div.puzzle, p" ).puzzle( size );	
-	$(object).css("background", "red");	
+	$( "div.puzzle, p" ).puzzle( size );
 }
