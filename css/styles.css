@@ -5,9 +5,25 @@ body {
 
 /* Remove */
 .row {
-	background: rgb(70, 173, 202);
+	background: white;
 }
 
-h1 {
-	background: rgb(105, 181, 202);
+h1, h2 {
+	text-align:center
+}
+
+.puzzle {
+	float: left ;
+	margin-right: 50px ;
+	height: 456px;
+}
+
+.bottom {
+	height: 50px;
+}
+
+button {
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
 }

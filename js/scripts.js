@@ -2,19 +2,12 @@
 $(document).foundation();
 
 $('#smButt').click(function() {
-		makePuzzle(100, this);
-	});
-
-$('#medButt').click(function() {
-		makePuzzle(60, this);
-	});
-
-$('#lgButt').click(function() {
-		makePuzzle(40, this);
+		makePuzzle(91, this);
+		$(".puzzle").css("background-color", "black");
 	});
 
 function makePuzzle (size, object) {
-	$("#puzzleDiv").html("<div class='puzzle' style='float: left ; margin-right: 50px ;'><img src='img/doh.jpg'>fsadfs</div>");
+	$("#puzzleDiv").html("<div class='puzzle column small-centered small-6'><img src='img/lost.jpg'></div>");
 	$( "div.puzzle, p" ).puzzle( size );	
 	$(object).css("background", "red");	
 }
